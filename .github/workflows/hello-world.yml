@@ -7,7 +7,7 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on:
-      group: Bitrise_GH_Universe_Runners
+      group: bitrise-runner-LexPool2
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -24,7 +24,7 @@ jobs:
   test:
     # The type of runner that the job will run on
     runs-on:
-      group: Bitrise_GH_Universe_Runners
+      group: bitrise-runner-LexPool2
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
