@@ -7,7 +7,7 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on:
-      group: Bitrise Lex Demo
+      group: bitrise-lex-demo
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -24,7 +24,7 @@ jobs:
   test:
     # The type of runner that the job will run on
     runs-on:
-      group: Bitrise Lex Demo
+      group: bitrise-lex-demo
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
