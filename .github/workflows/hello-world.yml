@@ -6,7 +6,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: bitrise_pool_name:bitrise-runner-LexPool2
+    runs-on: bitrise_pool_name:bitrise-lex-demo
 
       
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -23,7 +23,7 @@ jobs:
           env NSUnbufferedIO=YES xcodebuild build -scheme Signal -workspace Signal.xcworkspace CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
   test:
     # The type of runner that the job will run on
-    runs-on: bitrise_pool_name:bitrise-runner-LexPool2
+    runs-on: bitrise_pool_name:bitrise-lex-demo
 
      
 
